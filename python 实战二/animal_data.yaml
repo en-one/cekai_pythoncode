@@ -1,0 +1,11 @@
+catcat:
+  name: 'jerrycat'
+  color: yellow
+  age: 6
+  gender: 'male'
+
+dogdog:
+  name: 'jerrydog'
+  color: black
+  age: 4
+  gender: 'male'
