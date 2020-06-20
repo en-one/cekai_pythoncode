@@ -1,0 +1,29 @@
+def func():
+    print('无参数的方法')
+
+
+def func1(name):
+    print('有参数的方法' + name)
+
+
+func()
+func1('josiah')
+
+
+def func2():
+    '''
+    无返回值,默认为None
+    '''
+    return
+
+
+def func3(name='josiah'):
+    '''
+    返回默认值tom
+    '''
+    return name
+
+
+print(func2())
+func3()
+print(func3())
